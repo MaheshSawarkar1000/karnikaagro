@@ -14,7 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=1.1">
 </head>
 
 <body>
@@ -37,6 +37,7 @@
                 <a href="#dual-model" class="nav-link">Sales & Services</a>
                 <a href="#marketplace" class="nav-link">Products</a>
                 <a href="#farmer-hub" class="nav-link">Farmer Hub</a>
+                <a href="#advisories" class="nav-link">Advisories</a>
                 <a href="#contact" class="nav-link">Join Us</a>
             </nav>
             <div class="header-cta">
@@ -59,6 +60,7 @@
             <a href="#dual-model" class="mobile-nav-link">Sales & Services</a>
             <a href="#marketplace" class="mobile-nav-link">Products</a>
             <a href="#farmer-hub" class="mobile-nav-link">Farmer Hub</a>
+            <a href="#advisories" class="mobile-nav-link">Advisories</a>
             <a href="#contact" class="mobile-nav-link">Join Us</a>
             <div class="mobile-cta">
                 <a href="#farmer-hub" class="btn btn-outline w-full">Advisory Tool</a>
@@ -181,7 +183,9 @@
                         <div class="founder-text-content">
                             <span class="badge">Founder's Vision</span>
                             <h2>Leading Agricultural Growth</h2>
-                            <p class="founder-quote">"Our mission is to empower farmers by providing direct access to quality inputs and services. Through technology and direct market links, we ensure every farmer achieves maximum potential and fair rewards for their hard work."</p>
+                            <p class="founder-quote">"Our mission is to empower farmers by providing direct access to
+                                quality inputs and services. Through technology and direct market links, we ensure every
+                                farmer achieves maximum potential and fair rewards for their hard work."</p>
                             <div class="founder-meta">
                                 <h4>Mahesh Sawarkar</h4>
                                 <p>Managing Director & Founder, Karnika Agro FPC Ltd.</p>
@@ -307,6 +311,7 @@
                     <button class="filter-btn active" data-filter="all">All Products</button>
                     <button class="filter-btn" data-filter="seeds">Premium Seeds</button>
                     <button class="filter-btn" data-filter="nutrients">Bio-Nutrients</button>
+                    <button class="filter-btn" data-filter="treatment">Crop Treatment</button>
                     <button class="filter-btn" data-filter="tools">Smart Equipment</button>
                 </div>
 
@@ -380,6 +385,306 @@
                         </div>
                     </div>
 
+                    <!-- Product: Vermicompost -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/organic_manure.png" alt="Karnika Vermicompost Plus" class="product-img">
+                            <span class="product-badge accent">100% Organic</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.9 (104 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Organic Vermicompost Plus</h3>
+                            <p class="product-desc">Premium quality organic vermicompost enriched with neem cake powder, cow dung compost, and rock phosphate. Rich in humus, micro-nutrients, and microbes.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹450 <small>/ 50kg bag</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Organic Vermicompost Plus')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: PROM -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/organic_manure.png" alt="Karnika PROM Manure" class="product-img">
+                            <span class="product-badge">DAP Alternative</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.8 (67 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Phosphate Rich Organic Manure (PROM)</h3>
+                            <p class="product-desc">An organic phosphate fertilizer derived from rock phosphate and fine compost. Improves crop phosphorus uptake and boosts soil health better than chemical DAP.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹850 <small>/ 50kg bag</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika PROM Manure')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Mustard Cake -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/organic_manure.png" alt="Karnika Mustard Cake Powder" class="product-img">
+                            <span class="product-badge accent">Natural N-Source</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.7 (51 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Mustard Cake Powder</h3>
+                            <p class="product-desc">Pure oil-extracted mustard cake powder. Releases nitrogen slowly to plants while naturally repelling root nematodes and harmful soil pests.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹350 <small>/ 10kg bag</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Mustard Cake Powder')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Micronutrient Special -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/liquid_fertilizer.png" alt="Karnika Micronutrient Spray" class="product-img">
+                            <span class="product-badge">Leaf Spray</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.8 (81 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Micronutrient Special Spray</h3>
+                            <p class="product-desc">Fully chelated water-soluble liquid mixture containing essential Zinc, Iron, Manganese, Boron, Copper, and Molybdenum. Corrects yellowing and nutrient deficiencies.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹280 <small>/ 500ml bottle</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Micronutrient Special Spray')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Humic Acid -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/soluble_fertilizer.png" alt="Karnika Humic Acid" class="product-img">
+                            <span class="product-badge accent">Root Booster</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.9 (93 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Humic Acid Granules</h3>
+                            <p class="product-desc">Concentrated humic and fulvic acid granules. Extracted from premium leonardite. Enhances crop root system, soil structure, and nutrient absorption efficiency.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹400 <small>/ 5kg bucket</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Humic Acid Granules')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Bone Meal -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/organic_manure.png" alt="Karnika Bone Meal" class="product-img">
+                            <span class="product-badge">Slow Release</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.6 (44 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Bone Meal Bio-Phosphate</h3>
+                            <p class="product-desc">Sterilized bone meal powder. Excellent organic source of calcium and slow-releasing phosphorus. Ideal for root development and fruit/flower strength.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹180 <small>/ 5kg bag</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Bone Meal Bio-Phosphate')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: NPK 19:19:19 -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/soluble_fertilizer.png" alt="Karnika NPK 19:19:19" class="product-img">
+                            <span class="product-badge accent">Quick Spray</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.8 (75 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika NPK 19:19:19 Water Soluble</h3>
+                            <p class="product-desc">100% water-soluble foliar spray fertilizer. Balanced nitrogen, phosphorus, and potassium. Provides instant nourishment during critical crop growth phases.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹150 <small>/ 1kg pouch</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika NPK 19:19:19 Water Soluble')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Seaweed Liquid -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/liquid_fertilizer.png" alt="Karnika Seaweed Extract" class="product-img">
+                            <span class="product-badge">Bio-Stimulant</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.9 (88 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Seaweed Liquid Extract</h3>
+                            <p class="product-desc">Cold-process liquid seaweed concentrate. Contains natural growth auxins, gibberellins, and trace elements. Boosts stress tolerance and fruit sweetening.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹320 <small>/ 500ml bottle</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Seaweed Liquid Extract')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Bio-NPK Consortium -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/liquid_fertilizer.png" alt="Karnika Bio-NPK Consortium" class="product-img">
+                            <span class="product-badge accent">Bio-Active</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.8 (61 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Bio-NPK Microbial Consortium</h3>
+                            <p class="product-desc">Liquid bio-inoculant containing nitrogen-fixing, phosphate-solubilizing, and potash-mobilizing friendly soil bacteria. Restores native soil biodiversity.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹220 <small>/ 1 Litre bottle</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Bio-NPK Microbial Consortium')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Epsom Salt -->
+                    <div class="product-card" data-category="nutrients">
+                        <div class="product-img-wrapper">
+                            <img src="assets/soluble_fertilizer.png" alt="Karnika Epsom Salt" class="product-img">
+                            <span class="product-badge">Chlorophyll Boost</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Bio-Nutrient</span>
+                                <div class="product-rating">★ 4.7 (37 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Epsom Salt (Magnesium Sulfate)</h3>
+                            <p class="product-desc">High purity agricultural grade magnesium sulfate. Helps in chlorophyll production and leaf greening. Promotes lush crop canopy and crop yield strength.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹120 <small>/ 1kg pouch</small></span>
+                                </div>
+                                <button class="btn-buy" onclick="openEnquiryModal('Karnika Epsom Salt (Magnesium Sulfate)')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Product 3 -->
                     <div class="product-card" data-category="tools">
                         <div class="product-img-wrapper">
@@ -402,6 +707,204 @@
                                 </div>
                                 <button class="btn-buy"
                                     onclick="openEnquiryModal('Karnika Smart Soil pH & Moisture Meter')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Rice Seeds -->
+                    <div class="product-card" data-category="seeds">
+                        <div class="product-img-wrapper">
+                            <img src="assets/rice_seeds.png" alt="Karnika Premium Rice Seeds" class="product-img">
+                            <span class="product-badge">New Launch</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Seeds</span>
+                                <div class="product-rating">★ 4.8 (38 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Super Basmati Rice Seeds</h3>
+                            <p class="product-desc">High-yielding, aroma-rich hybrid paddy seeds. Carefully treated to resist bacterial leaf blight and stem rot. Excellent grain length and milling yield.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹1,850 <small>/ 25kg bag</small></span>
+                                </div>
+                                <button class="btn-buy"
+                                    onclick="openEnquiryModal('Karnika Super Basmati Rice Seeds')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Bajra Seeds -->
+                    <div class="product-card" data-category="seeds">
+                        <div class="product-img-wrapper">
+                            <img src="assets/bajra_seeds.png" alt="Karnika Premium Bajra Seeds" class="product-img">
+                            <span class="product-badge accent">Drought Resistant</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Seeds</span>
+                                <div class="product-rating">★ 4.7 (29 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Shaktiman Bajra Seeds</h3>
+                            <p class="product-desc">Advanced pearl millet hybrid seeds engineered for high drought tolerance and rapid growth. Delivers massive fodder quality and dense grain panicles.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹950 <small>/ 10kg bag</small></span>
+                                </div>
+                                <button class="btn-buy"
+                                    onclick="openEnquiryModal('Karnika Shaktiman Bajra Seeds')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Sweetcorn Seeds -->
+                    <div class="product-card" data-category="seeds">
+                        <div class="product-img-wrapper">
+                            <img src="assets/sweetcorn_seeds.png" alt="Karnika Premium Sweetcorn Seeds" class="product-img">
+                            <span class="product-badge">Sweet Yield</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Seeds</span>
+                                <div class="product-rating">★ 4.9 (45 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Sweetcorn Gold Hybrid Seeds</h3>
+                            <p class="product-desc">Super-sweet yellow hybrid sweetcorn seeds. Exceptional germination speed, highly uniform cobs, and strong resistance to rust and leaf blight.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹650 <small>/ 1kg pouch</small></span>
+                                </div>
+                                <button class="btn-buy"
+                                    onclick="openEnquiryModal('Karnika Sweetcorn Gold Hybrid Seeds')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Neem Shield -->
+                    <div class="product-card" data-category="treatment">
+                        <div class="product-img-wrapper">
+                            <img src="assets/neem_shield.png" alt="Karnika Neem Shield Spray" class="product-img">
+                            <span class="product-badge accent">Bio-Pesticide</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Crop Treatment</span>
+                                <div class="product-rating">★ 4.8 (92 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Neem Shield Organic Pest Protection</h3>
+                            <p class="product-desc">Cold-pressed organic neem formulation. Natural systemic insecticide and insect growth regulator. Repels aphids, whiteflies, and bollworms safely.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹550 <small>/ 1 Litre</small></span>
+                                </div>
+                                <button class="btn-buy"
+                                    onclick="openEnquiryModal('Karnika Neem Shield Organic Pest Protection')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Bio-Fungicide -->
+                    <div class="product-card" data-category="treatment">
+                        <div class="product-img-wrapper">
+                            <img src="assets/bio_fungicide.png" alt="Karnika Bio-Fungicide Packet" class="product-img">
+                            <span class="product-badge">Fungal Defense</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Crop Treatment</span>
+                                <div class="product-rating">★ 4.7 (57 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Trichoderma Bio-Fungicide</h3>
+                            <p class="product-desc">Highly effective Trichoderma viride powder. Protects crops against soil-borne pathogens causing root rot, wilt, damping-off, and collar rot.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹380 <small>/ 1kg packet</small></span>
+                                </div>
+                                <button class="btn-buy"
+                                    onclick="openEnquiryModal('Karnika Trichoderma Bio-Fungicide')">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="cart-icon">
+                                        <circle cx="9" cy="21" r="1"></circle>
+                                        <circle cx="20" cy="21" r="1"></circle>
+                                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6">
+                                        </path>
+                                    </svg>
+                                    Enquire
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product: Seed Treatment -->
+                    <div class="product-card" data-category="treatment">
+                        <div class="product-img-wrapper">
+                            <img src="assets/seed_treatment.png" alt="Karnika Seed Treatment Activator" class="product-img">
+                            <span class="product-badge">Germination Booster</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-meta">
+                                <span class="product-cat">Crop Treatment</span>
+                                <div class="product-rating">★ 4.9 (41 reviews)</div>
+                            </div>
+                            <h3 class="product-title">Karnika Seed Treatment Bio-Activator</h3>
+                            <p class="product-desc">Advanced liquid seed dressing. Imparts seedling vigor, improves root colonization of beneficial microbes, and enhances initial water absorption.</p>
+                            <div class="product-price-wrapper">
+                                <div class="price-container">
+                                    <span class="price-label">Member Price</span>
+                                    <span class="price">₹299 <small>/ 500ml</small></span>
+                                </div>
+                                <button class="btn-buy"
+                                    onclick="openEnquiryModal('Karnika Seed Treatment Bio-Activator')">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                         class="cart-icon">
                                         <circle cx="9" cy="21" r="1"></circle>
@@ -548,6 +1051,260 @@
             </div>
         </section>
 
+        <!-- Safety Advisories Section -->
+        <section id="advisories" class="advisories-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Government Safety Advisory</span>
+                    <h2 class="section-title">वीज पडण्यापासून पशूंचे संरक्षण</h2>
+                    <p class="section-subtitle">सुरक्षित पशु, सुरक्षित भविष्य — पशूंचे वीज व नैसर्गिक आपत्तींपासून
+                        संरक्षण करण्यासाठी पशुसंवर्धन व दुग्धव्यवसाय विभाग, महाराष्ट्र शासनाद्वारे जारी मार्गदर्शक
+                        सूचना.</p>
+
+                    <!-- Language Selector Tabs -->
+                    <div class="lang-selector">
+                        <button class="lang-btn active" data-lang="marathi">मराठी (Marathi)</button>
+                        <button class="lang-btn" data-lang="english">English Translation</button>
+                    </div>
+                </div>
+
+                <div class="advisory-main-grid">
+                    <!-- Left Column: Infographic Display -->
+                    <div class="advisory-media-card">
+                        <div class="advisory-img-container">
+                            <img src="assets/pashu.jpeg"
+                                alt="Protection of Animals from Lightning - Maharashtra Government Advisory"
+                                class="advisory-img">
+                            <div class="image-overlay">
+                                <a href="assets/pashu.jpeg" target="_blank" class="btn btn-secondary btn-sm">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        class="btn-icon-inline"
+                                        style="width:16px;height:16px;margin-right:6px;display:inline-block;vertical-align:middle;">
+                                        <path d="M15 3h6v6M10 14L21 3M18 21H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                    </svg>
+                                    View Full Poster
+                                </a>
+                            </div>
+                        </div>
+                        <div class="media-footer">
+                            <p><strong>प्रसारक:</strong> पशुसंवर्धन व दुग्धव्यवसाय विभाग, महाराष्ट्र शासन</p>
+                            <a href="https://wa.me/?text=सर्व शेतकरी मित्रांनो, वीज पडण्यापासून आपल्या जनावरांचे रक्षण करण्यासाठी महाराष्ट्र शासनाची ही महत्वाची माहिती नक्की वाचा आणि शेअर करा! https://maheshsawarkar1000.github.io/karnikaagro/#advisories"
+                                target="_blank" class="btn btn-whatsapp w-full">
+                                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon-inline"
+                                    style="width:18px;height:18px;margin-right:8px;display:inline-block;vertical-align:middle;">
+                                    <path
+                                        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.003 5.324 5.328 0 11.859 0c3.166.012 6.142 1.24 8.375 3.469 2.235 2.229 3.461 5.207 3.46 8.378-.002 6.534-5.327 11.858-11.859 11.858-.2 0-3.996-.026-5.947-.026a11.776 11.776 0 0 1-5.83 1.587v-.004zm5.833-2.188l.348.207c1.7.994 3.655 1.52 5.632 1.521 5.753 0 10.432-4.678 10.434-10.431.001-2.786-1.08-5.405-3.047-7.373a10.324 10.324 0 0 0-7.377-3.048C5.766.687 1.087 5.365 1.085 11.12c-.001 2.029.53 4.015 1.537 5.727l.228.388-.977 3.57 3.64-.954v-.003zM15.75 12.5c-.326-.164-1.93-.954-2.227-1.063-.298-.109-.516-.164-.734.164-.218.327-.844 1.063-1.035 1.281-.19.219-.381.246-.707.082-.326-.164-1.378-.508-2.625-1.621-.97-.866-1.626-1.936-1.817-2.264-.19-.328-.02-.505.143-.668.148-.146.326-.382.49-.573.163-.19.218-.327.326-.546.11-.219.055-.409-.028-.573-.082-.164-.734-1.77-.993-2.399-.26-.626-.516-.54-.734-.54h-.625c-.218 0-.573.082-.87.41-.297.327-1.14 1.12-1.14 2.733 0 1.614 1.173 3.17 1.336 3.388.163.218 2.308 3.525 5.59 4.945.78.337 1.388.539 1.862.69.784.25 1.498.214 2.062.129.628-.094 1.93-.79 2.202-1.554.272-.764.272-1.418.19-1.554-.08-.136-.298-.218-.624-.382z" />
+                                </svg>
+                                WhatsApp वर शेअर करा
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Advisory Details Card -->
+                    <div class="advisory-content-card">
+                        <!-- Marathi Content -->
+                        <div class="advisory-lang-section" id="marathi-advisory">
+                            <div class="advisory-block warning-block">
+                                <div class="block-icon">⚡</div>
+                                <div>
+                                    <h4>१. मुख्य उद्दिष्टे व धोरण</h4>
+                                    <p>राज्याची आपत्ती निवारण क्षमता वाढवणे व <strong>"पशू प्रथम" (Animal
+                                            First)</strong> हा दृष्टिकोन स्वीकारून पशूंना हवामान आपत्तींपासून वाचवणे.
+                                        स्थानिक समुदायांना वीज कोसळण्याच्या जोखमीबद्दल शिक्षित करण्यासाठी व्यापक
+                                        जनजागृती व माहिती मोहीम राबवणे. तसेच पशूंसाठी <strong>'वीज-सुरक्षित
+                                            निवारे'</strong> व वीज संरक्षण साधने बसवण्यास प्रोत्साहन देणे.</p>
+                                </div>
+                            </div>
+
+                            <div class="advisory-block risk-block">
+                                <div class="block-icon">⚠</div>
+                                <div>
+                                    <h4>२. हवामान घटना व पशूंना असलेला धोका</h4>
+                                    <p><strong>वीज (Lightning):</strong> पशू बहुतेक वेळा मोकळ्या जागेत असतात व त्यांच्या
+                                        चार पायांमधील अंतरामुळे <strong>"स्टेप पोटेंशियल (Step Potential)"</strong>
+                                        निर्माण होऊन त्यांना विजेचा धक्का लागण्याचा धोका मानवापेक्षा जास्त असतो.</p>
+                                    <div class="danger-indicators">
+                                        <span class="danger-tag">मेघगर्जना</span>
+                                        <span class="danger-tag">सोसाट्याचा वारा</span>
+                                        <span class="danger-tag">गारपीट</span>
+                                        <span class="danger-tag">धुळीची वादळे</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="advisory-block measure-block">
+                                <div class="block-icon">🛡</div>
+                                <div>
+                                    <h4>३. प्रतिबंधात्मक व तांत्रिक उपाय</h4>
+                                    <ul>
+                                        <li>पशूंच्या घरावर व गोठ्यांवर वीजरोधक व योग्य <strong>"अर्थिंग
+                                                (Earthing)"</strong> बसवणे आवश्यक आहे.</li>
+                                        <li>ग्रामपंचायत व जिल्हा स्तरावर आपत्ती व्यवस्थापन समित्या स्थापन करून स्थानिक
+                                            प्रतिक्रिया यंत्रणा मजबूत करणे.</li>
+                                        <li>पशुवैद्यकीय रुग्णालयांसाठी आपत्कालीन योजना तयार ठेवणे व औषधांचा साठा उपलब्ध
+                                            करून देणे.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="advisory-block aid-block">
+                                <div class="block-icon">✚</div>
+                                <div>
+                                    <h4>४. लक्षणे व प्रथमोपचार</h4>
+                                    <div class="grid grid-2 list-subgrid">
+                                        <div>
+                                            <h5>लक्षणे:</h5>
+                                            <ul>
+                                                <li>विजेचा धक्का लागल्यास पशूंचा अचानक मृत्यू होऊ शकतो.</li>
+                                                <li>जिवंत राहिलेल्या पशूंमध्ये भाजलेले व्रण, बेशुद्धावस्था, हाडे मोडणे
+                                                    किंवा अर्धांगवायू (Paralysis) अशी लक्षणे दिसू शकतात.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>प्रथमोपचार:</h5>
+                                            <ul>
+                                                <li>जखमांवर जंतुनाशक (Antiseptic) औषध लावावे.</li>
+                                                <li>रक्तस्त्राव थांबवण्यासाठी दाब द्यावा.</li>
+                                                <li>पशूला शॉक किंवा डिहायड्रेशनपासून वाचवण्यासाठी उपचार करावेत.</li>
+                                                <li>तणावात असलेल्या पशूला शांत व अंधाऱ्या जागी ठेवावे.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- English Content -->
+                        <div class="advisory-lang-section hidden" id="english-advisory">
+                            <div class="advisory-block warning-block">
+                                <div class="block-icon">⚡</div>
+                                <div>
+                                    <h4>1. Main Objectives & Policy</h4>
+                                    <p>Enhancing the state's disaster response capacity and adopting an <strong>"Animal
+                                            First"</strong> approach to protect livestock from weather-related
+                                        disasters. Educating local communities through widespread awareness campaigns,
+                                        and promoting the construction of <strong>lightning-safe animal
+                                            shelters</strong> and installing lightning protection devices.</p>
+                                </div>
+                            </div>
+
+                            <div class="advisory-block risk-block">
+                                <div class="block-icon">⚠</div>
+                                <div>
+                                    <h4>2. Weather Events & Risks to Animals</h4>
+                                    <p><strong>Lightning:</strong> Animals are often in open spaces, and due to the
+                                        distance between their four legs, <strong>"Step Potential"</strong> is
+                                        generated, making them significantly more vulnerable to fatal electric shock
+                                        than humans.</p>
+                                    <div class="danger-indicators">
+                                        <span class="danger-tag">Thunderstorms</span>
+                                        <span class="danger-tag">High Winds</span>
+                                        <span class="danger-tag">Hail Storms</span>
+                                        <span class="danger-tag">Dust Storms</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="advisory-block measure-block">
+                                <div class="block-icon">🛡</div>
+                                <div>
+                                    <h4>3. Preventive & Technical Solutions</h4>
+                                    <ul>
+                                        <li>It is essential to install lightning rods and proper
+                                            <strong>"Earthing"</strong> systems on animal sheds and barns.</li>
+                                        <li>Strengthen local response mechanisms by setting up disaster management
+                                            committees at the Gram Panchayat and District levels.</li>
+                                        <li>Maintain emergency action plans and buffer stocks of critical medicines at
+                                            veterinary clinics.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="advisory-block aid-block">
+                                <div class="block-icon">✚</div>
+                                <div>
+                                    <h4>4. Symptoms & First Aid</h4>
+                                    <div class="grid grid-2 list-subgrid">
+                                        <div>
+                                            <h5>Symptoms:</h5>
+                                            <ul>
+                                                <li>Sudden death upon direct or nearby lightning strikes.</li>
+                                                <li>Surviving animals may show severe burn marks, unconsciousness, bone
+                                                    fractures, or temporary/permanent paralysis.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>First Aid:</h5>
+                                            <ul>
+                                                <li>Apply antiseptic creams/liquids on lightning burn wounds.</li>
+                                                <li>Apply pressure to stop any external bleeding.</li>
+                                                <li>Treat for shock and severe dehydration immediately.</li>
+                                                <li>Move the stressed animal to a calm, quiet, and dark shelter.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dos & Don'ts Split Container -->
+                <div class="dos-donts-card">
+                    <div class="dos-donts-header">
+                        <h3>५. काय करावे व काय करू नये | Dos & Don'ts</h3>
+                        <p>Essential field checklist for farmers during lightning and thunderstorms</p>
+                    </div>
+
+                    <div class="grid grid-2 dos-donts-grid">
+                        <!-- Dos Column -->
+                        <div class="column-box dos-box">
+                            <div class="column-title text-green">
+                                <span class="bullet-icon">✓</span>
+                                <h4>काय करावे (Dos)</h4>
+                            </div>
+                            <ul class="check-list">
+                                <li>
+                                    <strong>हवामान अंदाज:</strong> टीव्ही, रेडिओ किंवा मोबाईल ॲप्सद्वारे हवामानाच्या
+                                    अंदाजाबाबत सतत सतर्क रहा.
+                                </li>
+                                <li>
+                                    <strong>सुरक्षित निवारा:</strong> वादळ-वाऱ्याच्या वेळी पशूंना तात्काळ सुरक्षित व
+                                    पक्क्या इमारतीच्या आत हलवून ठेवा.
+                                </li>
+                                <li>
+                                    <strong>त्वरित उपचार:</strong> विजेचा धक्का लागलेल्या पशूला त्वरित जवळच्या
+                                    पशुवैद्यकीय रुग्णालयात नेऊन उपचार द्या.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Don'ts Column -->
+                        <div class="column-box donts-box">
+                            <div class="column-title text-red">
+                                <span class="bullet-icon">✗</span>
+                                <h4>काय करू नये (Don'ts)</h4>
+                            </div>
+                            <ul class="cross-list">
+                                <li>
+                                    <strong>झाडाखाली बांधणे टाळा:</strong> वादळाच्या वेळी पशूंना कधीही मोठ्या किंवा
+                                    एकाकी झाडांखाली बांधू नका. झाडे वीज आकर्षित करतात.
+                                </li>
+                                <li>
+                                    <strong>धातू व पाणी टाळा:</strong> पशूंना धातूचे कुंपण, पाण्याचे पाईपलाईन, तलाव, नदी
+                                    किंवा डोंगराच्या माथ्यापासून दूर ठेवा.
+                                </li>
+                                <li>
+                                    <strong>पाण्यात नेऊ नका:</strong> वादळाच्या किंवा विजा चमकण्याच्या वेळी पशूंना धुणे
+                                    किंवा आंघोळ घालणे टाळावे.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Testimonials -->
         <section class="testimonials-section">
             <div class="container">
@@ -620,7 +1377,7 @@
                                 </div>
                                 <div>
                                     <h4>FPC Farmer Support Line</h4>
-                                    <p>+91 98765 43210 (Toll Free / WhatsApp)</p>
+                                    <p>+91 9370819352 (Toll Free / WhatsApp)</p>
                                 </div>
                             </div>
 
@@ -635,7 +1392,7 @@
                                 </div>
                                 <div>
                                     <h4>Email Support</h4>
-                                    <p>contact@karnikaagro.com</p>
+                                    <p>karnikaagrofpc@gmail.com</p>
                                 </div>
                             </div>
 
@@ -648,7 +1405,8 @@
                                 </div>
                                 <div>
                                     <h4>Headquarters Office</h4>
-                                    <p>Karnika Agro FPC Ltd., Agro Tower, Sector 3, Anand, Gujarat - 388001</p>
+                                    <p>Karnika Agro FPC Ltd., Near Maxim Computer, Durga Chowk Kamptee, Nagpur,
+                                        Maharashtra - 441001</p>
                                 </div>
                             </div>
                         </div>
@@ -679,10 +1437,10 @@
                                     <label for="form-state">State *</label>
                                     <select id="form-state" class="form-control" required>
                                         <option value="">-- Choose State --</option>
+                                        <option value="Maharashtra">Maharashtra</option>
                                         <option value="Gujarat">Gujarat</option>
                                         <option value="Punjab">Punjab</option>
                                         <option value="Haryana">Haryana</option>
-                                        <option value="Maharashtra">Maharashtra</option>
                                         <option value="Rajasthan">Rajasthan</option>
                                         <option value="Uttar Pradesh">Uttar Pradesh</option>
                                         <option value="Other">Other</option>
@@ -796,7 +1554,7 @@
                     </div>
                     <div class="form-group">
                         <label for="modal-village">Village / District *</label>
-                        <input type="text" id="modal-village" required placeholder="e.g. Anand, Gujarat"
+                        <input type="text" id="modal-village" required placeholder="e.g. Nagpur, Maharashtra"
                             class="form-control">
                     </div>
                 </div>
@@ -822,7 +1580,7 @@
     </div>
 
     <!-- Custom Script -->
-    <script src="app.js"></script>
+    <script src="app.js?v=1.1"></script>
 </body>
 
 </html>
